@@ -1,0 +1,22 @@
+/* tags */
+body{
+  text-align: center;
+}
+/* IDs */
+#tituloHome{
+  color: chartreuse;
+}
+#login{
+  background-color: black;
+  color: white;
+}
+#registro{
+  background-color: blueviolet;
+  color: white;
+}
+/* classes */
+.copy{
+  font-size: 10px;
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
