@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+      integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>..:Portifólio:..</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="logo.png" alt="" />
+        <i class="fa-solid fa-bug"></i>
+      </div>
+      <ul>
+        <li><a target="_blank" href="https://github.com/LuziaAm">Github</a></li>
+        <li>
+          <a target="_blank" href="mailto:luzia.castro29@gmail.com">Email</a>
+        </li>
+        <li>
+          <a target="_blank" href="https://wa.me/+5592984781449">Whatsapp</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="container">
+        <div class="name">
+          <h1>Luzia Amorim</h1>
+          <h5>QA and Test Automations Developer</h5>
+        </div>
+        <div onclick="displayAbout()" id="arrow">
+          <i id="animation" class="fa-solid fa-caret-down"></i>
+        </div>
+        <div style="display: none" id="about">
+          <p>Sobre mim!</p>
+          <p>
+            🐞 Software Test Automation <br />
+            ❤️ In love for technology knowledge <br />🏃🏻‍♀️ Challenge driven
+            <br />💻 https://github.com/LuziaAm <br />With more 7 years on
+            Quality Assurance. Experience in Test Analyst focusing in manual and
+            automated API service testing using Postman platform and writing
+            test scripts in JavaScript. Proficient in creating Software Test
+            Documentation: Test Plans, Test Cases. Knowledge in BDD with the
+            Cucumber tool and Gherkin writing I am also upgrading my QA skills
+            by learning new testing tools such as Pytest, REST-assured, Cypress
+            , Robot Framework and Selenium Web Driver, also I am learning
+            programming languages how JavaScript, Python and Java.
+          </p>
+        </div>
+        <div class="forme">
+          <div>
+            <p>Deixe seu contato!</p>
+          </div>
+          <form action="">
+            <input type="text" placeholder="seu melhor email :)" />
+            <button class="enviar">Enviar!</button>
+          </form>
+        </div>
+        <div>
+          <p id="frase">
+            "Você não pode mudar o vento, mas pode ajustar as velas do barco
+            para chegar onde quer."." (Confúcio)
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      function displayAbout() {
+        var arrow = document.getElementById('animation')
+        arrow.classList.toggle('rotate')
+        var display = document.getElementById('about')
+        display.classList.toggle('active')
+      }
+    </script>
+  </body>
+</html>
