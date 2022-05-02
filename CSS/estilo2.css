@@ -1,0 +1,44 @@
+* {
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+/* #primeiro{
+  border: 1px solid green;
+  margin: 30px;
+}
+
+.segundo{
+  border: 5px solid black;
+  padding: 15px;
+} */
+nav span{
+  color: violet;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+nav span:hover{
+  text-decoration: underline;
+  color: aqua;
+  background-color: lightcoral;
+
+}
+
+#primeiro,
+.segundo,
+.navigation{
+  border: 5px solid black;
+  padding: 15px;
+  margin: 5px;
+}
+
+.segundo > p{
+  color: chartreuse;
+}
+
+.segundo > div{
+  display: block !important;
+}
